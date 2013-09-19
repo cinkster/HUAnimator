@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA34502C17EB560000538433 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA34502B17EB560000538433 /* Foundation.framework */; };
+		AA34502E17EB560000538433 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA34502D17EB560000538433 /* CoreGraphics.framework */; };
+		AA34503017EB560000538433 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA34502F17EB560000538433 /* UIKit.framework */; };
+		AA34503617EB560000538433 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA34503417EB560000538433 /* InfoPlist.strings */; };
+		AA34503817EB560000538433 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA34503717EB560000538433 /* main.m */; };
+		AA34503C17EB560000538433 /* HUAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA34503B17EB560000538433 /* HUAppDelegate.m */; };
+		AA34503F17EB560000538433 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA34503D17EB560000538433 /* Main_iPhone.storyboard */; };
+		AA34504217EB560000538433 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA34504017EB560000538433 /* Main_iPad.storyboard */; };
+		AA34504517EB560000538433 /* HUViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA34504417EB560000538433 /* HUViewController.m */; };
+		AA34504717EB560000538433 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA34504617EB560000538433 /* Images.xcassets */; };
+		AA34504E17EB560000538433 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA34504D17EB560000538433 /* XCTest.framework */; };
+		AA34504F17EB560000538433 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA34502B17EB560000538433 /* Foundation.framework */; };
+		AA34505017EB560000538433 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA34502F17EB560000538433 /* UIKit.framework */; };
+		AA34505817EB560000538433 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA34505617EB560000538433 /* InfoPlist.strings */; };
+		AA34505A17EB560000538433 /* HUAnimatorDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA34505917EB560000538433 /* HUAnimatorDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA34505117EB560000538433 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA34502017EB560000538433 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA34502717EB560000538433;
+			remoteInfo = HUAnimatorDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA34502817EB560000538433 /* HUAnimatorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HUAnimatorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA34502B17EB560000538433 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AA34502D17EB560000538433 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AA34502F17EB560000538433 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AA34503317EB560000538433 /* HUAnimatorDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HUAnimatorDemo-Info.plist"; sourceTree = "<group>"; };
+		AA34503517EB560000538433 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AA34503717EB560000538433 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA34503917EB560000538433 /* HUAnimatorDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HUAnimatorDemo-Prefix.pch"; sourceTree = "<group>"; };
+		AA34503A17EB560000538433 /* HUAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HUAppDelegate.h; sourceTree = "<group>"; };
+		AA34503B17EB560000538433 /* HUAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HUAppDelegate.m; sourceTree = "<group>"; };
+		AA34503E17EB560000538433 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		AA34504117EB560000538433 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		AA34504317EB560000538433 /* HUViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HUViewController.h; sourceTree = "<group>"; };
+		AA34504417EB560000538433 /* HUViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HUViewController.m; sourceTree = "<group>"; };
+		AA34504617EB560000538433 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AA34504C17EB560000538433 /* HUAnimatorDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HUAnimatorDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA34504D17EB560000538433 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		AA34505517EB560000538433 /* HUAnimatorDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HUAnimatorDemoTests-Info.plist"; sourceTree = "<group>"; };
+		AA34505717EB560000538433 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AA34505917EB560000538433 /* HUAnimatorDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HUAnimatorDemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA34502517EB560000538433 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA34502E17EB560000538433 /* CoreGraphics.framework in Frameworks */,
+				AA34503017EB560000538433 /* UIKit.framework in Frameworks */,
+				AA34502C17EB560000538433 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA34504917EB560000538433 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA34504E17EB560000538433 /* XCTest.framework in Frameworks */,
+				AA34505017EB560000538433 /* UIKit.framework in Frameworks */,
+				AA34504F17EB560000538433 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA34501F17EB560000538433 = {
+			isa = PBXGroup;
+			children = (
+				AA34503117EB560000538433 /* HUAnimatorDemo */,
+				AA34505317EB560000538433 /* HUAnimatorDemoTests */,
+				AA34502A17EB560000538433 /* Frameworks */,
+				AA34502917EB560000538433 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA34502917EB560000538433 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA34502817EB560000538433 /* HUAnimatorDemo.app */,
+				AA34504C17EB560000538433 /* HUAnimatorDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA34502A17EB560000538433 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA34502B17EB560000538433 /* Foundation.framework */,
+				AA34502D17EB560000538433 /* CoreGraphics.framework */,
+				AA34502F17EB560000538433 /* UIKit.framework */,
+				AA34504D17EB560000538433 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA34503117EB560000538433 /* HUAnimatorDemo */ = {
+			isa = PBXGroup;
+			children = (
+				AA34503A17EB560000538433 /* HUAppDelegate.h */,
+				AA34503B17EB560000538433 /* HUAppDelegate.m */,
+				AA34503D17EB560000538433 /* Main_iPhone.storyboard */,
+				AA34504017EB560000538433 /* Main_iPad.storyboard */,
+				AA34504317EB560000538433 /* HUViewController.h */,
+				AA34504417EB560000538433 /* HUViewController.m */,
+				AA34504617EB560000538433 /* Images.xcassets */,
+				AA34503217EB560000538433 /* Supporting Files */,
+			);
+			path = HUAnimatorDemo;
+			sourceTree = "<group>";
+		};
+		AA34503217EB560000538433 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA34503317EB560000538433 /* HUAnimatorDemo-Info.plist */,
+				AA34503417EB560000538433 /* InfoPlist.strings */,
+				AA34503717EB560000538433 /* main.m */,
+				AA34503917EB560000538433 /* HUAnimatorDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA34505317EB560000538433 /* HUAnimatorDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA34505917EB560000538433 /* HUAnimatorDemoTests.m */,
+				AA34505417EB560000538433 /* Supporting Files */,
+			);
+			path = HUAnimatorDemoTests;
+			sourceTree = "<group>";
+		};
+		AA34505417EB560000538433 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA34505517EB560000538433 /* HUAnimatorDemoTests-Info.plist */,
+				AA34505617EB560000538433 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA34502717EB560000538433 /* HUAnimatorDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA34505D17EB560000538433 /* Build configuration list for PBXNativeTarget "HUAnimatorDemo" */;
+			buildPhases = (
+				AA34502417EB560000538433 /* Sources */,
+				AA34502517EB560000538433 /* Frameworks */,
+				AA34502617EB560000538433 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HUAnimatorDemo;
+			productName = HUAnimatorDemo;
+			productReference = AA34502817EB560000538433 /* HUAnimatorDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA34504B17EB560000538433 /* HUAnimatorDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA34506017EB560000538433 /* Build configuration list for PBXNativeTarget "HUAnimatorDemoTests" */;
+			buildPhases = (
+				AA34504817EB560000538433 /* Sources */,
+				AA34504917EB560000538433 /* Frameworks */,
+				AA34504A17EB560000538433 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA34505217EB560000538433 /* PBXTargetDependency */,
+			);
+			name = HUAnimatorDemoTests;
+			productName = HUAnimatorDemoTests;
+			productReference = AA34504C17EB560000538433 /* HUAnimatorDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA34502017EB560000538433 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HU;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Christian Inkster";
+				TargetAttributes = {
+					AA34504B17EB560000538433 = {
+						TestTargetID = AA34502717EB560000538433;
+					};
+				};
+			};
+			buildConfigurationList = AA34502317EB560000538433 /* Build configuration list for PBXProject "HUAnimatorDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA34501F17EB560000538433;
+			productRefGroup = AA34502917EB560000538433 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA34502717EB560000538433 /* HUAnimatorDemo */,
+				AA34504B17EB560000538433 /* HUAnimatorDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA34502617EB560000538433 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA34504217EB560000538433 /* Main_iPad.storyboard in Resources */,
+				AA34504717EB560000538433 /* Images.xcassets in Resources */,
+				AA34503F17EB560000538433 /* Main_iPhone.storyboard in Resources */,
+				AA34503617EB560000538433 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA34504A17EB560000538433 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA34505817EB560000538433 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA34502417EB560000538433 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA34504517EB560000538433 /* HUViewController.m in Sources */,
+				AA34503817EB560000538433 /* main.m in Sources */,
+				AA34503C17EB560000538433 /* HUAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA34504817EB560000538433 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA34505A17EB560000538433 /* HUAnimatorDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA34505217EB560000538433 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA34502717EB560000538433 /* HUAnimatorDemo */;
+			targetProxy = AA34505117EB560000538433 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA34503417EB560000538433 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA34503517EB560000538433 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AA34503D17EB560000538433 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA34503E17EB560000538433 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		AA34504017EB560000538433 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA34504117EB560000538433 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		AA34505617EB560000538433 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA34505717EB560000538433 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA34505B17EB560000538433 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA34505C17EB560000538433 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA34505E17EB560000538433 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HUAnimatorDemo/HUAnimatorDemo-Prefix.pch";
+				INFOPLIST_FILE = "HUAnimatorDemo/HUAnimatorDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AA34505F17EB560000538433 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HUAnimatorDemo/HUAnimatorDemo-Prefix.pch";
+				INFOPLIST_FILE = "HUAnimatorDemo/HUAnimatorDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AA34506117EB560000538433 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HUAnimatorDemo.app/HUAnimatorDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HUAnimatorDemo/HUAnimatorDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HUAnimatorDemoTests/HUAnimatorDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		AA34506217EB560000538433 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HUAnimatorDemo.app/HUAnimatorDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HUAnimatorDemo/HUAnimatorDemo-Prefix.pch";
+				INFOPLIST_FILE = "HUAnimatorDemoTests/HUAnimatorDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA34502317EB560000538433 /* Build configuration list for PBXProject "HUAnimatorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA34505B17EB560000538433 /* Debug */,
+				AA34505C17EB560000538433 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA34505D17EB560000538433 /* Build configuration list for PBXNativeTarget "HUAnimatorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA34505E17EB560000538433 /* Debug */,
+				AA34505F17EB560000538433 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AA34506017EB560000538433 /* Build configuration list for PBXNativeTarget "HUAnimatorDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA34506117EB560000538433 /* Debug */,
+				AA34506217EB560000538433 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA34502017EB560000538433 /* Project object */;
+}
