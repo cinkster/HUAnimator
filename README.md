@@ -5,8 +5,6 @@ Simple group of classes to demonstrate Custom View Transitions available in iOS 
 
 The included classes also demonstrate the use of the new UIView snapshot API for quickly creating lightweight views of existing complex view hierarchies that you can animate using the simple uiview animation apis.
 
-Class that demonstrates a few navigation push pop animations.
-
 To use add the following to your navigationcontroller.delegate
 
 For the standard IOS 6 style push pop use the following.
