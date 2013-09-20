@@ -8,6 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HUViewController : UIViewController
+typedef NS_ENUM(NSInteger, HUTransitionType) {
+    Transition6Style,
+    TransitionGhost,
+    TransitionVerticalLines,
+    TransitionHorizontalLines,
+};
 
+@interface HUViewController : UIViewController<UINavigationControllerDelegate>
+@property HUTransitionType transitionType;
+
+-(IBAction)changeTransition:(UIButton *)sender;
 @end

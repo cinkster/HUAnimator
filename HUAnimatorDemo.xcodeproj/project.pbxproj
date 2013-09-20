@@ -22,6 +22,12 @@
 		AA34505017EB560000538433 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA34502F17EB560000538433 /* UIKit.framework */; };
 		AA34505817EB560000538433 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA34505617EB560000538433 /* InfoPlist.strings */; };
 		AA34505A17EB560000538433 /* HUAnimatorDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA34505917EB560000538433 /* HUAnimatorDemoTests.m */; };
+		AA34506417EB5B1400538433 /* bikesign.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA34506317EB5B1400538433 /* bikesign.jpg */; };
+		AA34506617EB5B1C00538433 /* toilet.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA34506517EB5B1C00538433 /* toilet.jpg */; };
+		AA34507017EB5DEB00538433 /* HUTransitionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = AA34506917EB5DEB00538433 /* HUTransitionAnimator.m */; };
+		AA34507117EB5DEB00538433 /* HUTransitionGhostAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = AA34506B17EB5DEB00538433 /* HUTransitionGhostAnimator.m */; };
+		AA34507217EB5DEB00538433 /* HUTransitionHorizontalLinesAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = AA34506D17EB5DEB00538433 /* HUTransitionHorizontalLinesAnimator.m */; };
+		AA34507317EB5DEB00538433 /* HUTransitionVerticalLinesAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = AA34506F17EB5DEB00538433 /* HUTransitionVerticalLinesAnimator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +61,16 @@
 		AA34505517EB560000538433 /* HUAnimatorDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HUAnimatorDemoTests-Info.plist"; sourceTree = "<group>"; };
 		AA34505717EB560000538433 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AA34505917EB560000538433 /* HUAnimatorDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HUAnimatorDemoTests.m; sourceTree = "<group>"; };
+		AA34506317EB5B1400538433 /* bikesign.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bikesign.jpg; sourceTree = "<group>"; };
+		AA34506517EB5B1C00538433 /* toilet.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = toilet.jpg; sourceTree = "<group>"; };
+		AA34506817EB5DEB00538433 /* HUTransitionAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUTransitionAnimator.h; sourceTree = "<group>"; };
+		AA34506917EB5DEB00538433 /* HUTransitionAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUTransitionAnimator.m; sourceTree = "<group>"; };
+		AA34506A17EB5DEB00538433 /* HUTransitionGhostAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUTransitionGhostAnimator.h; sourceTree = "<group>"; };
+		AA34506B17EB5DEB00538433 /* HUTransitionGhostAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUTransitionGhostAnimator.m; sourceTree = "<group>"; };
+		AA34506C17EB5DEB00538433 /* HUTransitionHorizontalLinesAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUTransitionHorizontalLinesAnimator.h; sourceTree = "<group>"; };
+		AA34506D17EB5DEB00538433 /* HUTransitionHorizontalLinesAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUTransitionHorizontalLinesAnimator.m; sourceTree = "<group>"; };
+		AA34506E17EB5DEB00538433 /* HUTransitionVerticalLinesAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUTransitionVerticalLinesAnimator.h; sourceTree = "<group>"; };
+		AA34506F17EB5DEB00538433 /* HUTransitionVerticalLinesAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUTransitionVerticalLinesAnimator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +100,7 @@
 		AA34501F17EB560000538433 = {
 			isa = PBXGroup;
 			children = (
+				AA34506717EB5DEB00538433 /* HUAnimator */,
 				AA34503117EB560000538433 /* HUAnimatorDemo */,
 				AA34505317EB560000538433 /* HUAnimatorDemoTests */,
 				AA34502A17EB560000538433 /* Frameworks */,
@@ -129,6 +146,8 @@
 		AA34503217EB560000538433 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				AA34506317EB5B1400538433 /* bikesign.jpg */,
+				AA34506517EB5B1C00538433 /* toilet.jpg */,
 				AA34503317EB560000538433 /* HUAnimatorDemo-Info.plist */,
 				AA34503417EB560000538433 /* InfoPlist.strings */,
 				AA34503717EB560000538433 /* main.m */,
@@ -153,6 +172,21 @@
 				AA34505617EB560000538433 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA34506717EB5DEB00538433 /* HUAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				AA34506817EB5DEB00538433 /* HUTransitionAnimator.h */,
+				AA34506917EB5DEB00538433 /* HUTransitionAnimator.m */,
+				AA34506A17EB5DEB00538433 /* HUTransitionGhostAnimator.h */,
+				AA34506B17EB5DEB00538433 /* HUTransitionGhostAnimator.m */,
+				AA34506C17EB5DEB00538433 /* HUTransitionHorizontalLinesAnimator.h */,
+				AA34506D17EB5DEB00538433 /* HUTransitionHorizontalLinesAnimator.m */,
+				AA34506E17EB5DEB00538433 /* HUTransitionVerticalLinesAnimator.h */,
+				AA34506F17EB5DEB00538433 /* HUTransitionVerticalLinesAnimator.m */,
+			);
+			path = HUAnimator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +266,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA34506617EB5B1C00538433 /* toilet.jpg in Resources */,
 				AA34504217EB560000538433 /* Main_iPad.storyboard in Resources */,
 				AA34504717EB560000538433 /* Images.xcassets in Resources */,
 				AA34503F17EB560000538433 /* Main_iPhone.storyboard in Resources */,
+				AA34506417EB5B1400538433 /* bikesign.jpg in Resources */,
 				AA34503617EB560000538433 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,7 +290,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA34507017EB5DEB00538433 /* HUTransitionAnimator.m in Sources */,
 				AA34504517EB560000538433 /* HUViewController.m in Sources */,
+				AA34507217EB5DEB00538433 /* HUTransitionHorizontalLinesAnimator.m in Sources */,
+				AA34507117EB5DEB00538433 /* HUTransitionGhostAnimator.m in Sources */,
+				AA34507317EB5DEB00538433 /* HUTransitionVerticalLinesAnimator.m in Sources */,
 				AA34503817EB560000538433 /* main.m in Sources */,
 				AA34503C17EB560000538433 /* HUAppDelegate.m in Sources */,
 			);
