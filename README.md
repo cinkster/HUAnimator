@@ -9,10 +9,24 @@ To use add the following to your navigationcontroller.delegate
 
 For the standard IOS 6 style push pop use the following.
 
+```
 -(id)navigationController:(UINavigationController *)navigationController animationControllerForOperation:(UINavigationControllerOperation)operation fromViewController:(UIViewController *)fromVC toViewController:(UIViewController *)toVC{
 
-HUTransitionAnimator *animator = [[HUTransitionAnimator alloc] init]; animator.presenting = (operation == UINavigationControllerOperationPop)?NO:YES; return animator;
+    HUTransitionAnimator *animator = [[HUTransitionAnimator alloc] init]; 
+    animator.presenting = (operation == UINavigationControllerOperationPop)?NO:YES; 
+    return animator;
 
 }
+```
+I've also included a couple of other ones I experimented with. To try them just replace 
+```
+[HUTransitionAnimator alloc] 
+```
 
-I've also included a couple of other ones I experimented with. To try them just replace [HUTransitionAnimator alloc] with [HUTransitionVerticalLinesAnimator alloc] or whichever class you like.
+with
+
+```
+[HUTransitionVerticalLinesAnimator alloc] 
+```
+
+or whichever class you like.
